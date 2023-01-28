@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/esteph-14f/static/css/main.b62271d3.css",
+    "main.js": "/esteph-14f/static/js/main.308a8405.js",
+    "static/js/216.da5fd40c.chunk.js": "/esteph-14f/static/js/216.da5fd40c.chunk.js",
+    "static/media/entradas.jpeg": "/esteph-14f/static/media/entradas.7a91f58010a1e1f27f33.jpeg",
+    "index.html": "/esteph-14f/index.html",
+    "static/media/logo.svg": "/esteph-14f/static/media/logo.d8ffd921cce1350a62bebd34821a02e0.svg",
+    "main.b62271d3.css.map": "/esteph-14f/static/css/main.b62271d3.css.map",
+    "main.308a8405.js.map": "/esteph-14f/static/js/main.308a8405.js.map",
+    "216.da5fd40c.chunk.js.map": "/esteph-14f/static/js/216.da5fd40c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b62271d3.css",
+    "static/js/main.308a8405.js"
+  ]
+}
