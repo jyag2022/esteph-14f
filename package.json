@@ -2,7 +2,13 @@
   "name": "esteph-14f",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://juanyaguaro.github.io/esteph-14f",
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.6",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -13,14 +19,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "eslint": "eslint src/**",
-    "prettier": "prettier --write ."
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "prettier": "prettier --write .",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -42,7 +43,6 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
-    "eslint-config-prettier": "^8.6.0",
     "prettier": "2.8.3",
     "typescript": "^4.4.2"
   }
